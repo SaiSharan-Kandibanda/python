@@ -1,0 +1,1676 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_alchol -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_alchol">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_carbohydrates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_carbohydrates">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#nutrition"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cookies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_fat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_fat">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#nutrition"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#crisps"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_meat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_meat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#meat"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#frozenfoods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_nicotin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_nicotin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_protein -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_protein">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#nutrition"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#meat"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_sugar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#has_sugar">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#nutrition"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#nutrition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#nutrition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#expiry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#expiry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#grams -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#grams">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#quantity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cookies"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#crisps"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#frozenfoods"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#meat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#liters -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#liters">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#quantity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#water"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#manufacture -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#manufacture">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pack_of_four -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pack_of_four">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#quantity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#papergoods"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#soaps"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pack_of_twenty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pack_of_twenty">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#quantity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#quantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#aero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#aero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#aluminumfoils -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#aluminumfoils">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#papergoods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bensonandhedges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bensonandhedges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bounty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bounty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#budwiser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#budwiser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#butter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#butter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#butterkist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#butterkist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#crisps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cadbury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cadbury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sweets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#calsberg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#calsberg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cheese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cheese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chicken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chicken">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chickenfillets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chickenfillets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#frozenfoods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cookies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cleaners -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cleaners"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cookies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cookies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#crisps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#crisps"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#detergents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#detergents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cleaners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dishwashingliquid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dishwashingliquid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cleaners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#doritos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#doritos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#crisps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#evain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#evain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fanta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fanta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fishfillets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fishfillets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#frozenfoods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fosters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fosters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#frozenfoods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#frozenfoods"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#haribo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#haribo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sweets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#heinkien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#heinkien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#icecream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#icecream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kinder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kinder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kitkat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kitkat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#crisps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lucozade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lucozade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mandm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mandm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sweets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#meat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#milk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mirinda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mirinda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mutton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mutton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#papergoods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#papergoods"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#peanut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#peanut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cookies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pepsi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pepsi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#perla -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#perla">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#frozenfoods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#rothmans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#rothmans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#shampoo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#shampoo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cleaners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#snikers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#snikers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#soaps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#soaps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cleaners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#starburst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#starburst">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sweets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#stella -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#stella">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cookies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sweets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sweets"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#volvic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#volvic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#wafers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#wafers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cookies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#walkers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#walkers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#crisps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#water"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#yogurt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#yogurt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dairy"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#amul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#amul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cheese"/>
+        <grams>25g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#apples -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#apples">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#baked -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#baked">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chickenfillets"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#banana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#banana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+        <grams>100g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bandh_blue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bandh_blue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bensonandhedges"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bandh_green -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bandh_green">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bensonandhedges"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bandh_skyblue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bandh_skyblue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bensonandhedges"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bbq_foils -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bbq_foils">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#aluminumfoils"/>
+        <pack_of_four rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_four>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#black -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#black">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#perla"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#british_milk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#british_milk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#milk"/>
+        <grams>750ml</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#brown -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#brown">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+        <expiry>15 dec 2020</expiry>
+        <grams>250grams</grams>
+        <grams>500grams</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bubble_gold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bubble_gold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#aero"/>
+        <expiry>5 dec 2021</expiry>
+        <grams>50g</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bubble_green -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bubble_green">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#aero"/>
+        <expiry>5 dec 2021</expiry>
+        <grams>50g</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#budwiser_large -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#budwiser_large">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#budwiser"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#budwiser_mini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#budwiser_mini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#budwiser"/>
+        <liters>440ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cabbage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cabbage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#calsberg_export -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#calsberg_export">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#calsberg"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#calsberg_special -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#calsberg_special">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#calsberg"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#caramel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#caramel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cadbury"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cathedral -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cathedral">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#butter"/>
+        <grams>25g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cheese_and_onion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cheese_and_onion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#walkers"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cheesy_and_roast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cheesy_and_roast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pizza"/>
+        <grams>100g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield_blue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield_blue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield_bright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield_bright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield_red -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield_red">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chesterfield"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chicken_roast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chicken_roast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pizza"/>
+        <grams>100g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chicken_wings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chicken_wings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chicken"/>
+        <grams>50g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chiili -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chiili">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#doritos"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#choco_chip -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#choco_chip">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolate"/>
+        <grams>100g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chunkey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chunkey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kitkat"/>
+        <expiry>5 dec 2021</expiry>
+        <grams>50g</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cinema -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cinema">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#butterkist"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola_cherry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola_cherry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola_zero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola_zero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#diet_coke -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#diet_coke">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cococola"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#diet_pepsi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#diet_pepsi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pepsi"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#digestives -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#digestives">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#peanut"/>
+        <expiry>100g</expiry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dove -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dove">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#shampoo"/>
+        <liters>250ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#duo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#duo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bounty"/>
+        <expiry>5 dec 2021</expiry>
+        <grams>60g</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#easy_wash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#easy_wash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dishwashingliquid"/>
+        <liters>250ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#egg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#egg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kinder"/>
+        <expiry>5 dec 2020</expiry>
+        <grams>40g</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#evain_large -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#evain_large">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#evain"/>
+        <liters>1000ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#flaming_hot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#flaming_hot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#doritos"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#flumps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#flumps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#haribo"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruit_twist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruit_twist">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fanta"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#galaxy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#galaxy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#wafers"/>
+        <grams>50g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#gold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#gold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kitkat"/>
+        <expiry>5 dec 2021</expiry>
+        <grams>60g</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#greek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#greek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#yogurt"/>
+        <grams>100g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#green -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#green">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#perla"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#grill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#grill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fish"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#head_and_shoulders -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#head_and_shoulders">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#shampoo"/>
+        <liters>250ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#heinkein_mini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#heinkein_mini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#heinkien"/>
+        <liters>440ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#heinkein_pint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#heinkein_pint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#heinkien"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kitchen_foils -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kitchen_foils">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#aluminumfoils"/>
+        <pack_of_four rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_four>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lattice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lattice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        <pack_of_twenty>250g</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lays_salted -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lays_salted">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lays"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lays_tomato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lays_tomato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lays"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lemon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lemon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fanta"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lemon_and_sugar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lemon_and_sugar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sugar"/>
+        <grams>100g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lucozadecanberry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lucozadecanberry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lucozade"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lucozadesport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lucozadesport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#lucozade"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mandm_blue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mandm_blue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mandm"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mandm_yellow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mandm_yellow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mandm"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mars -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mars">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#icecream"/>
+        <grams>30g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fosters"/>
+        <liters>440ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mirinda_mixit_orange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mirinda_mixit_orange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mirinda"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mirinda_strawberry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mirinda_strawberry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mirinda"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mixed_white_and_brown -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mixed_white_and_brown">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+        <expiry>15 dec 2020</expiry>
+        <grams>250 grams</grams>
+        <grams>500grams</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mutton_kebab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mutton_kebab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#mutton"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#orange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#orange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fanta"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#oreo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#oreo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cadbury"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pepsi_mango -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pepsi_mango">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pepsi"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pineballs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pineballs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#starburst"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#pint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fosters"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#popcorn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#popcorn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#butterkist"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#potato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#potato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        <pack_of_twenty>250g</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#quick_wash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#quick_wash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#dishwashingliquid"/>
+        <liters>250ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#rothmans_blue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#rothmans_blue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#rothmans"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#rothmans_silver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#rothmans_silver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#rothmans"/>
+        <pack_of_twenty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sandel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sandel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#soaps"/>
+        <liters>45g</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#silk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#silk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cadbury"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#skittles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#skittles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#starburst"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#snikers_duo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#snikers_duo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#snikers"/>
+        <grams>60g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#snikers_trio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#snikers_trio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#snikers"/>
+        <grams>80g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#sport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#evain"/>
+        <liters>1000ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#stella_mini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#stella_mini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#stella"/>
+        <liters>440ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#stella_pint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#stella_pint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#stella"/>
+        <liters>500ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#strawberry_mix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#strawberry_mix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#haribo"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#surf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#surf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#detergents"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#surprise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#surprise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#kinder"/>
+        <grams>60g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#detergents"/>
+        <grams>250g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tomota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tomota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        <pack_of_twenty>250g</pack_of_twenty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#trio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#trio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bounty"/>
+        <expiry>5 dec 2021</expiry>
+        <grams>85g</grams>
+        <manufacture>5 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tuna_fish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tuna_fish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fish"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#volvic_mixed_fruites -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#volvic_mixed_fruites">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#volvic"/>
+        <liters>1000ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#volvic_strawberry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#volvic_strawberry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#volvic"/>
+        <liters>1000ml</liters>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#watermelon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#watermelon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+        <grams>100g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#white -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#white">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+        <expiry>5 dec 2020</expiry>
+        <grams>250grams</grams>
+        <grams>500grams</grams>
+        <manufacture>1 dec 2020</manufacture>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#whole_chicken -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#whole_chicken">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chicken"/>
+        <grams>100g</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#whole_fish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#whole_fish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fishfillets"/>
+        <grams rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</grams>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#chocolates"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#tobacco"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#beers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#fruits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#bread"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#cooldrinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/saisharan/ontologies/2020/11/untitled-ontology-4#vegetables"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
